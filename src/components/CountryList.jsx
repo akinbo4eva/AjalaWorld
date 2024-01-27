@@ -2,8 +2,10 @@ import styles from "./CountryList.module.css";
 import CountryItem from "./CountryItem";
 import Message from "./Message";
 import Spinner from "./Spinner";
+import { useCities } from "../Contexts/CitiesContxt";
 
-function CountryList({ isLoading, cities }) {
+function CountryList() {
+  const { isLoading, cities } = useCities();
   if (isLoading) return <Spinner />;
 
   if (!cities.length)
@@ -18,7 +20,7 @@ function CountryList({ isLoading, cities }) {
   return (
     <ul className={styles.countryList}>
       {countries.map((country) => (
-        <CountryItem country={country} key={country} />
+        <CountryItem country={country} key={country.country} />
       ))}
     </ul>
   );

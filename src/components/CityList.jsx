@@ -1,11 +1,14 @@
 /* eslint-disable react/prop-types */
 
+import { useCities } from "../Contexts/CitiesContxt";
 import CityItem from "./CityItem";
 import styles from "./CityList.module.css";
 import Message from "./Message";
 import Spinner from "./Spinner";
 
-function CityList({ isLoading, cities }) {
+function CityList() {
+  const { isLoading, cities } = useCities();
+
   if (isLoading) return <Spinner />;
 
   if (!cities.length)
