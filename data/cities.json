@@ -37,15 +37,27 @@
       "id": "98443197"
     },
     {
-      "id": "0c9c",
-      "cityName": "Zorita",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-01-27T04:02:02.965Z",
+      "id": "c548",
+      "cityName": "Tchirozerine",
+      "country": "Niger (the)",
+      "emoji": "🇳🇪",
+      "date": "2024-01-27T16:21:19.877Z",
       "notes": "",
       "position": {
-        "lat": "39.222242520725594",
-        "lng": "-5.607965042552513"
+        "lat": "17.638100124266387",
+        "lng": "9.257228185964179"
+      }
+    },
+    {
+      "id": "8391",
+      "cityName": "Jaba",
+      "country": "Nigeria",
+      "emoji": "🇳🇬",
+      "date": "2024-01-27T16:21:31.023Z",
+      "notes": "ewese",
+      "position": {
+        "lat": "9.510172138329523",
+        "lng": "8.133579475935122"
       }
     }
   ]
